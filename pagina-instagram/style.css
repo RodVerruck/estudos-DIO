@@ -83,6 +83,15 @@ body {
     border-radius: 4px;
 }
 
+.instagram-login:hover {
+    background-color: #EBAB13;
+    background-image: -webkit-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -moz-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -ms-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -o-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -webkit-gradient(to bottom, #EBAB13, #ED7F1E);
+}
+
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
@@ -107,10 +116,11 @@ body {
 
 .download {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .app-download {
@@ -118,6 +128,44 @@ body {
     width: 10rem;
     background-size: cover;
 }
+
+.naruto {
+    margin: 2px;
+    height: 3rem;
+    width: 10rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 2px
+    border-color-hover: ;
+    border-style-hover: solid;
+    border-width-hover: 1;
+    background-color: #000000;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .naruto:hover {
+    background: #EBAB13;
+    background-image: -webkit-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -moz-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -ms-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -o-linear-gradient(top, #EBAB13, #ED7F1E);
+    background-image: -webkit-gradient(to bottom, #EBAB13, #ED7F1E);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
 
 .app-download:nth-child(1) {
     background-image: url(img/apple-button.png);
